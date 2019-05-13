@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Kush Infotech`,
     description: `Kush Infotech is a Kolkata based software company that provides software solutions at reasonable price`,
-    author: `@gatsbyjs`,
+    author: `Kush Infotech`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,6 +13,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `logo`,
+        path: `${__dirname}/src/gallery/logo`,
       },
     },
     `gatsby-transformer-sharp`,

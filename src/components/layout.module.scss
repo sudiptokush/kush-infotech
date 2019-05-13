@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-areas:
+    'header' 'main' 'footer';
+    grid-template-rows: minmax(67px,10vh) 1fr 3vh;
+
+    .header {
+        grid-area: header;
+        font-weight: bold;
+        background: #343a40;
+        a {
+            color: white;
+            padding: 0 0 0 2rem;
+        }
+        a[aria-current="page"]{
+            color: aquamarine;
+        }
+    }
+    
+    .main {
+        grid-area: main;
+        min-height:90vh
+    }
+    
+    .footer {
+        grid-area: footer;
+        background: #343a40;
+        color: white;
+    }
+}

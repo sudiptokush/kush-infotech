@@ -1,0 +1,22 @@
+.headerContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    .brandLogo{
+        align-self: center;
+    }
+    .menuBar {
+        align-self: center;
+        flex-grow: 1;     
+    }
+    .brandName{
+        align-self: center;
+        color: white;
+        margin: 0 2rem 0 0;
+    }
+}
