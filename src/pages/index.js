@@ -1,13 +1,15 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import { useGallery } from '../hooks/gallery-hook';
+import SEO from "../components/seo";
 
-const IndexPage = () => (
-  <Layout>
+function IndexPage() {
+  const techLogo = useGallery('techLogo');
+  return <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    First Page
+    {techLogo}
   </Layout>
-)
+}
 
 export default IndexPage

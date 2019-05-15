@@ -22,6 +22,13 @@ module.exports = {
         path: `${__dirname}/src/gallery/logo`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `techLogo`,
+        path: `${__dirname}/src/gallery/tech-logo`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

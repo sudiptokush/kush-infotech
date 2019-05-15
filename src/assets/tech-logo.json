@@ -1,0 +1,50 @@
+[
+    {
+        "name": "HTML",
+        "image": "html"
+    },
+    {
+        "name": "CSS",
+        "image": "css"
+    },
+    {
+        "name": "",
+        "image": "jquery"
+    },
+    {
+        "name": "React",
+        "image": "react"
+    },
+    {
+        "name": "Gatsby",
+        "image": "gatsby"
+    },
+    {
+        "name": "Angular",
+        "image": "angular"
+    },
+    {
+        "name": "",
+        "image": "asp"
+    },
+    {
+        "name": "",
+        "image": "mvc"
+    },
+    {
+        "name": "",
+        "image": "my-sql"
+    },
+    {
+        "name": "",
+        "image": "sql-server"
+    },
+    {
+        "name": "",
+        "image": "oracle"
+    },
+    {
+        "name": "",
+        "image": "postgres"
+    }
+]
