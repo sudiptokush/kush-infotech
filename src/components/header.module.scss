@@ -12,11 +12,21 @@
     }
     .menuBar {
         align-self: center;
-        flex-grow: 1;     
+        flex-grow: 1;    
+        font-size: 1.2em;
+        a {
+            color: black;
+            padding: 0 0 0 5rem;
+            text-decoration: none;
+        }
+        a[aria-current="page"]{
+            text-decoration: underline;
+        } 
     }
     .brandName{
         align-self: center;
         color: black;
         margin: 0 2rem 0 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }

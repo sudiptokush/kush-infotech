@@ -7,18 +7,12 @@
     .header {
         grid-area: header;
         font-weight: bold;
-        a {
-            color: black;
-            padding: 0 0 0 2rem;
-        }
-        a[aria-current="page"]{
-            color: aquamarine;
-        }
     }
     
     .main {
         grid-area: main;
         min-height:90vh;
+        background: #fafbf1;
     }
     
     .footer {

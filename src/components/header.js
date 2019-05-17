@@ -18,9 +18,9 @@ const Header = () => {
             <Link to="/projects/">Projects</Link>
             <Link to="/contact/">Contact Us</Link>
         </div>
-        <div className={headerStyles.brandName}>
+        {/* <div className={headerStyles.brandName}>
           Kush Infotech
-        </div>
+        </div> */}
     </div>
 }
 export default Header;

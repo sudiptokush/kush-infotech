@@ -1,14 +1,20 @@
 import React from "react";
-import { Link } from "gatsby";
 import Layout from "../components/layout";
 import { useGallery } from '../hooks/gallery-hook';
 import SEO from "../components/seo";
+import { useCarousel } from "../hooks/carousel-hook";
 
 function IndexPage() {
-  const techLogo = useGallery('techLogo');
   return <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    {techLogo}
+    <div className="home-page-container">
+      <div className="carousel-container">
+        {useCarousel()}
+      </div>
+      <div className="tech-logo-container">
+        {useGallery('techLogo')}
+      </div>
+    </div>
   </Layout>
 }
 

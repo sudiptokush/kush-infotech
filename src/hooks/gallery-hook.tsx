@@ -34,7 +34,7 @@ function useGallery(source: string) {
               <div className="name">{j.name}</div>
           </div>
         });
-        return <div className="tech-logo-container">{temp}</div>
+        return <div>{temp}</div>
     }
 }
 export { useGallery };
