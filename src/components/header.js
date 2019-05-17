@@ -16,7 +16,7 @@ const Header = () => {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/projects/">Projects</Link>
-            <Link to="/contact/">Contact Us</Link>
+            <Link to="/contactUs/">Contact Us</Link>
         </div>
         {/* <div className={headerStyles.brandName}>
           Kush Infotech

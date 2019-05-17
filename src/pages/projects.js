@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 
-const About = () => { 
+const Projects = () => { 
     return <Layout></Layout>
 }
-export default About;
+export default Projects;
