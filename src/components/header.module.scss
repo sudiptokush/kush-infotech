@@ -14,14 +14,6 @@
         align-self: center;
         flex-grow: 1;    
         font-size: 1.2em;
-        a {
-            color: black;
-            padding: 0 0 0 5rem;
-            text-decoration: none;
-        }
-        a[aria-current="page"]{
-            text-decoration: underline;
-        } 
     }
     .brandName{
         align-self: center;
@@ -29,4 +21,18 @@
         margin: 0 2rem 0 0;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
+}
+
+a {
+    color: black;
+    padding: 0 0 0 3rem;
+    text-decoration: none;
+}
+a[aria-current="page"]{
+    text-decoration: underline;
+} 
+
+
+.navi {
+    height: 80px;
 }
