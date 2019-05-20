@@ -7,7 +7,8 @@ import {Navbar,Nav} from "react-bootstrap";
 
 const Header = () => {
     const temp = imageProcessor("logo","fixed");
-    return <Navbar expand="lg">
+    const style = {height:"80px"}; 
+    return <Navbar expand="lg" style={style}>
             <Navbar.Brand href="#home">{temp}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

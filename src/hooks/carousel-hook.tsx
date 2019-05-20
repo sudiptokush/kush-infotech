@@ -11,7 +11,7 @@ function useCarousel(){
       edges {
         node {
           childImageSharp {
-            fluid {
+            fluid(maxWidth:2000) {
               ...GatsbyImageSharpFluid
             }
           }
