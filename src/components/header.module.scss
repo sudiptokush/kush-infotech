@@ -1,38 +1,10 @@
-.headerContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: stretch;
-    .brandLogo{
-        align-self: center;
-    }
-    .menuBar {
-        align-self: center;
-        flex-grow: 1;    
-        font-size: 1.2em;
-    }
-    .brandName{
-        align-self: center;
-        color: black;
-        margin: 0 2rem 0 0;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-}
-
 a {
     color: black;
-    padding: 0 0 0 3rem;
+    padding: .5rem 0 .5rem 3rem;
     text-decoration: none;
+    text-align: right;
 }
 a[aria-current="page"]{
     text-decoration: underline;
 } 
 
-
-.navi {
-    height: 80px;
-}
