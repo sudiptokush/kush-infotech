@@ -1,17 +1,5 @@
 [
     {
-        "name": "HTML",
-        "image": "html"
-    },
-    {
-        "name": "CSS",
-        "image": "css"
-    },
-    {
-        "name": "JQuery",
-        "image": "jquery"
-    },
-    {
         "name": "React",
         "image": "react"
     },
@@ -54,5 +42,21 @@
     {
         "name": "Firebase",
         "image": "firebase"
+    },
+    {
+        "name": "HTML",
+        "image": "html"
+    },
+    {
+        "name": "CSS",
+        "image": "css"
+    },
+    {
+        "name": "JQuery",
+        "image": "jquery"
+    },
+    {
+        "name": "ES6",
+        "image": "es6"
     }
 ]
