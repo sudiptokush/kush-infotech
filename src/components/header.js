@@ -7,19 +7,24 @@ import {Navbar,Nav} from "react-bootstrap";
 
 const Header = () => {
     const temp = imageProcessor("logo","fixed"); //{temp}
-    return <Navbar expand="lg">
-            <Navbar.Brand href="#home">Kush Infotech</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ml-auto">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/projects/">Projects</Link>
-                <Link to="/contactUs/">Contacts</Link>
-              </Nav>
-            </Navbar.Collapse>
-            
-          </Navbar>
+    // const width = {width:'70%', float:"left"}; style={width}
+    return <React.Fragment>
+            <Navbar expand="lg" className={headerStyles.menu}>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                  <Link to="/">Home</Link>
+                  <Link to="/about">About</Link>
+                  <Link to="/projects/">Projects</Link>
+                  <Link to="/contactUs/">Contacts</Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+            <div className={headerStyles.outerBrandContainer}>
+              <div className={headerStyles.innerBrandContainer}>Kush Infotech</div>
+            </div>
+          </React.Fragment>
+          
     
 }
 export default Header;

@@ -16,6 +16,14 @@
         "image": "angular"
     },
     {
+        "name": "Dart", 
+        "image": "dart"
+    },
+    {   
+        "name": "Google Flutter", 
+        "image": "flutter"
+    },
+    {
         "name": "ASP.Net",
         "image": "asp"
     },

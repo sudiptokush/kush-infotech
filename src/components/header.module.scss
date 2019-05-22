@@ -2,8 +2,24 @@ a {
     color: black;
     padding: .5rem 2rem .5rem;
     text-decoration: none;
-    text-align: right;
 }
 a[aria-current="page"]{
     text-decoration: underline;
 } 
+
+.menu {
+    width: 70%;
+     float: left;
+}
+
+.outerBrandContainer {
+    width: 30%; 
+    font-size: 1.2em; 
+    float: left;
+    .innerBrandContainer {
+        position: absolute; 
+        right: 1%; 
+        transform: translate(0%, 50%);
+    }
+}
+
