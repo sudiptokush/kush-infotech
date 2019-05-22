@@ -18,9 +18,14 @@ body {
       margin: 2rem 1%;
       float:left;
       text-align: center;
+      position: relative;
       .name {
         font-weight: bold;
         margin-top: 1rem;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0;
       }
     }
   }
