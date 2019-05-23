@@ -1,7 +1,12 @@
 a {
     color: black;
-    padding: .5rem 2rem .5rem;
     text-decoration: none;
+    @media screen and (min-width: 1000px) {   
+        padding: .5rem 2rem .5rem;
+    }
+    @media screen and (max-width: 800px) {
+        padding: .5rem 0 .5rem;
+    }
 }
 a[aria-current="page"]{
     text-decoration: underline;
@@ -18,8 +23,13 @@ a[aria-current="page"]{
     float: left;
     .innerBrandContainer {
         position: absolute; 
-        right: 1%; 
-        transform: translate(0%, 50%);
+        right: 0; 
+        @media screen and (min-width: 1000px) {   
+            transform: translate(0%, 50%);
+        }
+        @media screen and (max-width: 800px) {
+            transform: translate(50%, 50%);
+        }   
     }
 }
 
