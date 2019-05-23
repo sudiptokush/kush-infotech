@@ -30,7 +30,7 @@ a[aria-current="page"]{
         @media screen and (max-width: 499px) {
             transform: translate(50%, 50%);
         } 
-        @media screen and (max-width: 200px) {
+        @media screen and (min-width: 498px) {
             transform: translate(150%, 50%);
         }   
     }
