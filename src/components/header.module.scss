@@ -4,7 +4,7 @@ a {
     @media screen and (max-width: 2000px) {   
         padding: .5rem 2rem .5rem;
     }
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 500px) {
         padding: .5rem 0 .5rem;
     }
 }
@@ -27,8 +27,8 @@ a[aria-current="page"]{
         @media screen and (max-width: 2000px) {   
             transform: translate(0%, 50%);
         }
-        @media screen and (max-width: 1000px) {
-            transform: translate(50%, 50%);
+        @media screen and (max-width: 500px) {
+            transform: translate(150%, 50%);
         }   
     }
 }
