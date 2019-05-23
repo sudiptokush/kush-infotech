@@ -5,6 +5,9 @@ body {
 .home-page-container {
   
   .carousel-container { 
+    @media screen and (max-width: 490px) {
+      display: none;
+    }
   }
   .tech-logo-container {
     padding: 0 8rem;
