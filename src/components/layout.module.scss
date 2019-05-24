@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas:
     'header' 'main' 'footer';
-    grid-template-rows: auto 1fr 3vh;
+    grid-template-rows: auto 1fr minmax(20px,3vh);
 
     .header {
         grid-area: header;

@@ -6,8 +6,7 @@ import {Navbar,Nav} from "react-bootstrap";
 
 
 const Header = () => {
-    const temp = imageProcessor("logo","fixed"); //{temp}
-    // const width = {width:'70%', float:"left"}; style={width}
+    const temp = imageProcessor("logo","fixed"); 
     return <React.Fragment>
             <Navbar expand="lg" className={headerStyles.menu}>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
