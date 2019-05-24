@@ -7,7 +7,15 @@ function imageProcessor(source: string, type: string) {
     logo: 
     file(relativePath: { eq: "logo.png" }) {
       childImageSharp {
-        fixed(width: 100) {
+        fixed(width: 182, height: 54) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    sushant:
+    file(relativePath: { eq: "sushant.jpg" }) {
+      childImageSharp {
+        fixed(width: 300) {
           ...GatsbyImageSharpFixed
         }
       }
