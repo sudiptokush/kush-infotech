@@ -43,6 +43,62 @@ module.exports = {
         path: `${__dirname}/src/gallery/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `kyokushin`,
+        path: `${__dirname}/src/gallery/projects/kyokushin`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `capital`,
+        path: `${__dirname}/src/gallery/projects/capital`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `selfandbeyond`,
+        path: `${__dirname}/src/gallery/projects/selfandbeyond`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `asset-tracking`,
+        path: `${__dirname}/src/gallery/projects/asset-tracking`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `payroll`,
+        path: `${__dirname}/src/gallery/projects/payroll`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `accounts`,
+        path: `${__dirname}/src/gallery/projects/accounts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `eshop`,
+        path: `${__dirname}/src/gallery/projects/eshop`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `medical`,
+        path: `${__dirname}/src/gallery/projects/medical`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
