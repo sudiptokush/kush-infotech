@@ -94,6 +94,10 @@ body {
 
 .projectsContainer{
   margin: 0 7rem;
+  @media screen and (max-width: 650px) {
+    margin: 0 1rem;
+  }
+
   .projects{
     height: 50px;
     border: 1px solid black;
