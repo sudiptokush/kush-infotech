@@ -19,7 +19,7 @@ const Header = () => {
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
-            <div className={headerStyles.outerBrandContainer}>
+            <div className={headerStyles.brandContainer}>
               Kush Infotech
             </div>
           </React.Fragment>
