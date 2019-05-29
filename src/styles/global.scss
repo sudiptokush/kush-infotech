@@ -98,7 +98,7 @@ body {
     height: 50px;
     border: 1px solid black;
     margin: 1rem 0;
-    font-size: 2em;
+    font-size: 1.5rem;
     text-align: center;
     background: #f1e5bd;
       
@@ -109,10 +109,16 @@ body {
   background: #f7d8b0;
   margin: 1rem 0;
   padding: .2rem 2rem;
-  a {
-    float:right;
-    font-size: .8em;
-    padding: 0px !important;
+  .siteLink {
+    @media screen and (max-width: 2000px){
+      padding: 0px !important;
+    }
+    @media screen and (max-width: 991px) {
+      border: 0px !important;
+      width: auto !important;
+      background: none !important;
+      margin: 0px !important;
+    }
   }
 }
 .project-description {

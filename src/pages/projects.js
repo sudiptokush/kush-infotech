@@ -20,7 +20,7 @@ const Projects = () => {
                 <div id="fade-container">
                     
                     <div className="project-site-name">
-                        1. Kyokushin Kaikan India<a target="_blank" href="http://www.kyokushinkaikanindia.com">Visit</a>
+                        <a className="siteLink" target="_blank" href="http://www.kyokushinkaikanindia.com">Kyokushin Kaikan India</a>
                     </div>
                     <div className="project-description">
                         Its a React Gatsby based project.
@@ -31,7 +31,7 @@ const Projects = () => {
 
                     
                     <div className="project-site-name">
-                        2. Capital Chowringhee Pvt Ltd<a target="_blank" href="https://www.capital-chowringhee.com">Visit</a>
+                        <a className="siteLink" target="_blank" href="https://www.capital-chowringhee.com">Capital Chowringhee Pvt Ltd</a>
                     </div>
                     <div className="project-description">
                         Its a React Gatsby based project.
@@ -42,7 +42,7 @@ const Projects = () => {
 
                     
                     <div className="project-site-name">
-                        3. Self &amp; Beyond<a target="_blank" href="https://www.selfandbeyond.in">Visit</a>
+                        <a className="siteLink" target="_blank" href="https://www.selfandbeyond.in">Self &amp; Beyond</a>
                     </div>
                     <div className="project-description">
                         Its an angular 2+ based static website built for a psychotherapy Well Being Center. They offer
