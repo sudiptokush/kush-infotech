@@ -99,6 +99,13 @@ module.exports = {
         path: `${__dirname}/src/gallery/projects/medical`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `ornet`,
+        path: `${__dirname}/src/gallery/projects/ornet`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

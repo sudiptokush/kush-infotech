@@ -44,12 +44,17 @@ body {
     height: 500px;
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
     margin: 2rem 4rem 0 0;
-      div {
-        padding: 1.5rem;
-        .highlight {
-          font-weight: bold;
-        }
+    div {
+      padding: 1.5rem;
+      .highlight {
+        font-weight: bold;
       }
+    }
+    iframe {
+      margin: 1rem;
+      width:490px;
+      height: 230px;
+    }
   }
   .contact-tile {
     float: left;
@@ -106,6 +111,7 @@ body {
     text-align: center;
     background: #f1e5bd;
     line-height: 50px;
+    cursor: pointer;
   }
 }
 

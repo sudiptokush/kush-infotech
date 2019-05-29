@@ -130,6 +130,20 @@ function useGallery(source: string) {
             }
           }
         }
+
+        ornet:
+        allFile(filter:{sourceInstanceName: {eq:"ornet"}}) {
+          edges {
+            node {
+              name
+              childImageSharp {
+                fixed(height:150, width:200) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
+          }
+        }
     }`;
 
     const data = useStaticQuery(gql);
@@ -138,7 +152,7 @@ function useGallery(source: string) {
       case "techLogo":
       {
         const allImages = {}; 
-        data[source].edges.forEach(x => {
+        data[source].edges.forEach((x:any) => {
               allImages[x.node.name] = x.node.childImageSharp.fixed;
         });
         const temp = techJson.map((j: any, index: number) => {
@@ -152,7 +166,9 @@ function useGallery(source: string) {
       default:
       {
         const temp = data[source].edges.map((x: any, index: number) => {
-            return <div key={index} className="project-image"><Img key={source} fixed={ x.node.childImageSharp.fixed}></Img></div>
+            return <div key={index} className="project-image">
+                      <Img key={source} fixed={ x.node.childImageSharp.fixed}></Img>
+                    </div>
         });
         return <React.Fragment>{temp}</React.Fragment>
       }

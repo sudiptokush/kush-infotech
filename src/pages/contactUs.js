@@ -36,6 +36,7 @@ const ContactUs = () => {
                 <div><span className="highlight">Address -</span> 92/2A, 1st Floor, Concord Tower , Bidhan Nagar Main Road, Ultadanga VIP Crossing, Kolkata, West Bengal 700067 </div> 
                 <div><span className="highlight">Email -</span> capitalch@gmail.com</div>
                 <div><span className="highlight">Phone -</span> 9163877601</div> 
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.5890498416993!2d88.38124351495998!3d22.594468385171574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa70a82a434cf37bc!2sKush+Infotech!5e0!3m2!1sen!2sin!4v1559124646207!5m2!1sen!2sin" ></iframe>
             </div>
             <div className="contact-tile">
                 <form onSubmit={sendEmail}>

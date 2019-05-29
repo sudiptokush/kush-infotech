@@ -127,6 +127,16 @@ const Projects = () => {
                     <div className="project-image-container">
                         {useGallery('eshop')}
                     </div>
+
+                    <div className="project-site-name">
+                        Ornet 
+                    </div>
+                    <div className="project-description">
+                        React dynamic library using Json
+                    </div>
+                    <div className="project-image-container">
+                        {useGallery('ornet')}
+                    </div>
                 </div>
             </Fade>
             {/* Demo Application Section */}
