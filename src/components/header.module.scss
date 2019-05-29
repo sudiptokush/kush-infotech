@@ -24,23 +24,10 @@ a[aria-current="page"]{
 .outerBrandContainer {
     width: 30%; 
     font-size: 1.2em; 
-    float: left;
+    float: right;
     line-height: 50px;
-    .innerBrandContainer {
-        position: absolute; 
-        right: 0; 
-        
-        // @media (min-width: 768px) and (max-width: 1281px) {
-        //     transform: translate(-7%, 50%);
-        // }
-        
-        // @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-        //     transform: translate(-5%, 50%);
-        // }
-
-        // @media screen and (max-width: 768px) {
-        //     display: none;
-        // }
+    @media screen and (max-width: 499px) {   
+        display:none;
     }
 }
 
