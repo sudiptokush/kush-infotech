@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSortDown } from '@fortawesome/free-solid-svg-icons';
 import Fade from "react-bootstrap/Fade";
 import { useGallery } from "../hooks/gallery-hook";
+import SEO from "../components/seo";
+import seoJson from "../assets/seo.json";
 
 const Projects = () => { 
     const [siteOpen, setSiteOpen] = useState(false);
@@ -12,6 +14,7 @@ const Projects = () => {
     const [windowOpen, setWindowOpen] = useState(false);
 
     return <Layout>
+        <SEO title="Kush Infotech Projects" description={seoJson["decription"]} keywords={seoJson["keywords"]}/>
         <div className="projectsContainer">
 
             {/* Website Section */}

@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import Layout from "../components/layout";
 import axios from 'axios';
 import settings from '../assets/settings.json';
+import SEO from "../components/seo";
+import seoJson from "../assets/seo.json";
 
 const ContactUs = () => { 
     const [name, setName] = useState("");
@@ -31,6 +33,7 @@ const ContactUs = () => {
     
 
     return <Layout>
+		<SEO title="Kush Infotech Contact" description={seoJson["decription"]} keywords={seoJson["keywords"]}/>
         <div className="contact-container">
             <div className="address-tile">
                 <div><span className="highlight">Address -</span> 92/2A, 1st Floor, Concord Tower , Bidhan Nagar Main Road, Ultadanga VIP Crossing, Kolkata, West Bengal 700067 </div> 

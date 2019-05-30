@@ -7,7 +7,7 @@ function imageProcessor(source: string, type: string) {
     logo: 
     file(relativePath: { eq: "logo.png" }) {
       childImageSharp {
-        fixed(width: 182, height: 54) {
+        fixed(width: 200) {
           ...GatsbyImageSharpFixed
         }
       }
