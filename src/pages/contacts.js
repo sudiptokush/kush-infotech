@@ -5,7 +5,7 @@ import settings from '../assets/settings.json';
 import SEO from "../components/seo";
 import seoJson from "../assets/seo.json";
 
-const ContactUs = () => { 
+const Contacts = () => { 
     const [name, setName] = useState("");
 	const [mobile, setMobile] = useState("");
 	const [email, setEmail] = useState("");
@@ -90,4 +90,4 @@ const ContactUs = () => {
         </div>
     </Layout>
 }
-export default ContactUs;
+export default Contacts;
