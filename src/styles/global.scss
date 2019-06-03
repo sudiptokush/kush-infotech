@@ -45,9 +45,9 @@ body {
 // ==============================================
 // Contact Page
 .contact-container {
-  margin: 0 8rem;
+  margin: 2rem 8rem;
   @media screen and (max-width: 490px) {
-    margin: 0 1rem;
+    margin: 1rem 1rem;
   }
   .address-tile {
     float:left;
@@ -55,7 +55,7 @@ body {
     min-width: 350px;
     height: 500px;
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-    margin: 2rem 4rem 0 0;
+    margin: 0 4rem 2rem 0;
     div {
       padding: 1.5rem;
       .highlight {
@@ -63,8 +63,7 @@ body {
       }
     }
     iframe {
-      margin: 1rem;
-      width: 94%;
+      width: 100%;
       height: 190px;
     }
   }
@@ -75,7 +74,6 @@ body {
     height: 500px;
     padding: 1rem;
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-    margin: 2rem 0 2rem 0;
     .contact-table {
       width: 100%;
       height: 450px;
@@ -115,9 +113,9 @@ body {
 // ==============================================
 // Project Page
 .projectsContainer{
-  margin: 0 7rem;
+  margin: 2rem 7rem;
   @media screen and (max-width: 650px) {
-    margin: 0 1rem;
+    margin: 1rem 1rem;
   }
 
   .projects{
@@ -179,7 +177,7 @@ svg{
 // About Page
 .about-container {
   box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
-  margin: 1rem 13rem;
+  margin: 2rem 13rem;
   padding: .5rem 1rem;
   @media screen and (max-width: 490px) {
     margin: 1rem 1rem;
@@ -208,7 +206,7 @@ svg{
 // ==============================================
 .pricing-container {
   box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
-  margin: 1rem 13rem;
+  margin: 2rem 13rem;
   padding: .5rem 1rem;
   @media screen and (max-width: 490px) {
     margin: 1rem 1rem;
