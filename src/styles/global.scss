@@ -15,7 +15,7 @@ body {
     margin: 0 1rem;
     display: inline-block;
     @media screen and (max-width: 490px) {
-      margin: 0 1rem;
+      margin: 0 3rem;
     }
     .tech-logo {
       box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
@@ -47,7 +47,7 @@ body {
 .contact-container {
   margin: 2rem 8rem;
   @media screen and (max-width: 490px) {
-    margin: 1rem 1rem;
+    margin: 1rem 1.5rem;
   }
   .address-tile {
     float:left;
@@ -115,7 +115,7 @@ body {
 .projectsContainer{
   margin: 2rem 7rem;
   @media screen and (max-width: 650px) {
-    margin: 1rem 1rem;
+    margin: 1rem 2rem;
   }
 
   .projects{
@@ -208,6 +208,7 @@ svg{
   box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
   margin: 2rem 13rem;
   padding: .5rem 1rem;
+  text-align: justify;
   @media screen and (max-width: 490px) {
     margin: 1rem 1rem;
   }
