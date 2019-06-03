@@ -42,8 +42,10 @@ body {
 // ==============================================
 // Contact Page
 .contact-container {
-  padding: 0 8rem;
-  
+  margin: 0 8rem;
+  @media screen and (max-width: 490px) {
+    margin: 0 1rem;
+  }
   .address-tile {
     float:left;
     width:47%;
