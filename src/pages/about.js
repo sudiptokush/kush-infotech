@@ -5,12 +5,12 @@ import SEO from "../components/seo";
 import seoJson from "../assets/seo.json";
 
 const About = () => {
-    const temp = imageProcessor("sushant", "fixed");
+    const SushantImage = imageProcessor("sushant", "fixed");
     return <Layout>
         <SEO title="Kush Infotech About" description={seoJson["decription"]} keywords={seoJson["keywords"]} />
         <div className="about-container">
             <div className="left-inset-image">
-                {temp}
+                {SushantImage}
             </div>
             <div className="content">
                 <p>

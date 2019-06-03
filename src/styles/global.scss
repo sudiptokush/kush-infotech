@@ -176,7 +176,6 @@ svg{
   box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
   margin: 0 13rem;
   padding: .5rem 1rem;
-  min-width: 500px;
   @media screen and (max-width: 490px) {
     margin: 0 2rem;
   }
@@ -189,7 +188,6 @@ svg{
   }
   .content {
     text-align: justify;
-    min-width: 500px;
     .header {
       height: 40px;
       font-weight: bold;
@@ -207,7 +205,6 @@ svg{
   box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
   margin: 0 13rem;
   padding: .5rem 1rem;
-  min-width: 500px;
   @media screen and (max-width: 490px) {
     margin: 0 2rem;
   }

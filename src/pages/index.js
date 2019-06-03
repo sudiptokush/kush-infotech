@@ -6,14 +6,17 @@ import { useCarousel } from "../hooks/carousel-hook";
 import seoJson from "../assets/seo.json";
 
 function IndexPage() {
+  const Carousel = useCarousel();
+  const TechLogoGallery = useGallery('techLogo');
+
   return <Layout>
     <SEO title="Kush Infotech Home" description={seoJson["decription"]} keywords={seoJson["keywords"]}/>
     <div className="home-page-container">
       <div className="carousel-container">
-        {useCarousel()}
+        {Carousel}
       </div>
       <div className="tech-logo-container">
-        {useGallery('techLogo')}
+        {TechLogoGallery}
       </div>
     </div>
   </Layout>

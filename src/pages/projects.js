@@ -13,6 +13,16 @@ const Projects = () => {
     const [demoOpen, setDemoOpen] = useState(false);
     const [windowOpen, setWindowOpen] = useState(false);
 
+    const KyokushinGallery = useGallery('kyokushin');
+    const CapitalElectronicsGallery = useGallery('capital');
+    const SelfBeyondGallery = useGallery('selfandbeyond');
+    const AssetTrackingGallery = useGallery('asset');
+    const PayrollGallery = useGallery('payroll');
+    const AccountsGallery = useGallery('accounts');
+    const MedicalProjectGallery = useGallery('medical');
+    const EshopGallery = useGallery('eshop');
+    const OrnetGallery = useGallery('ornet');
+
     return <Layout>
         <SEO title="Kush Infotech Projects" description={seoJson["decription"]} keywords={seoJson["keywords"]}/>
         <div className="projectsContainer">
@@ -29,7 +39,7 @@ const Projects = () => {
                         Its a React Gatsby based project.
                     </div>
                     <div className="project-image-container">
-                        {useGallery('kyokushin')}
+                        {KyokushinGallery}
                     </div>
 
                     
@@ -40,7 +50,7 @@ const Projects = () => {
                         Its a React Gatsby based project.
                     </div>
                     <div className="project-image-container">
-                        {useGallery('capital')}
+                        {CapitalElectronicsGallery}
                     </div>
 
                     
@@ -53,7 +63,7 @@ const Projects = () => {
                         meditation sessions.
                     </div>
                     <div className="project-image-container">
-                        {useGallery('selfandbeyond')}
+                        {SelfBeyondGallery}
                     </div>
 
                 </div>
@@ -72,7 +82,7 @@ const Projects = () => {
                         Project based on .NET
                     </div>
                     <div className="project-image-container">
-                        {useGallery('asset')}
+                        {AssetTrackingGallery}
                     </div>
                 
                     <div className="project-site-name">
@@ -82,7 +92,7 @@ const Projects = () => {
                         Project based on .NET and Silverlight
                     </div>
                     <div className="project-image-container">
-                        {useGallery('payroll')}
+                        {PayrollGallery}
                     </div>
                 </div>
             </Fade>
@@ -100,7 +110,7 @@ const Projects = () => {
                         Power Builder based software
                     </div>
                     <div className="project-image-container">
-                        {useGallery('accounts')}
+                        {AccountsGallery}
                     </div>
                 </div>
             </Fade>
@@ -118,7 +128,7 @@ const Projects = () => {
                         Angular 6 +
                     </div>
                     <div className="project-image-container">
-                        {useGallery('medical')}
+                        {MedicalProjectGallery}
                     </div>
                 
                     <div className="project-site-name">
@@ -128,7 +138,7 @@ const Projects = () => {
                         Angular 6 +
                     </div>
                     <div className="project-image-container">
-                        {useGallery('eshop')}
+                        {EshopGallery}
                     </div>
 
                     <div className="project-site-name">
@@ -138,7 +148,7 @@ const Projects = () => {
                         React dynamic library using Json
                     </div>
                     <div className="project-image-container">
-                        {useGallery('ornet')}
+                        {OrnetGallery}
                     </div>
                 </div>
             </Fade>
