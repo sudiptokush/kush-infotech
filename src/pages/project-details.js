@@ -4,7 +4,8 @@ import {navigate} from "gatsby";
 import { useGallery } from '../hooks/gallery-hook';
 
 const ProjectDetails = ({location}) => {
-    const details = location.state ? location.state.source : navigate('/projects/');
+    const details = location.state ? location.state.source : 'kyokushin';
+    //navigate('/projects/');
     console.log(details);
     const projectImages = useGallery(details);
 
