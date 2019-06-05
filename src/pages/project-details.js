@@ -1,10 +1,11 @@
 import React from "react";
 import Layout from "../components/layout";
-import {navigate} from "gatsby";
+import {push} from "gatsby";
 import { useGallery } from '../hooks/gallery-hook';
 
 const ProjectDetails = ({location}) => {
-    const details = location.state ? location.state.source : 'kyokushin';
+    const details = location.state ? location.state.source : push('/projects/');
+    //'kyokushin';
     //navigate('/projects/');
     console.log(details);
     const projectImages = useGallery(details);
