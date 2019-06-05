@@ -153,7 +153,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -167,7 +167,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -181,7 +181,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -195,7 +195,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -209,7 +209,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -223,7 +223,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -237,7 +237,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -251,7 +251,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -265,7 +265,7 @@ function useGallery(source: string) {
             node {
               name
               childImageSharp {
-                fixed(width:400) {
+                fixed(width:700) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -319,7 +319,12 @@ function useGallery(source: string) {
       case "medicalDetails":
       case "ornetDetails":
       {
-        
+        const temp = data[source].edges.map((x: any, index: number) => {
+          return <div key={index} className="image-container">
+                    <Img key={source} fixed={ x.node.childImageSharp.fixed}></Img>
+                  </div>
+        });
+        return <React.Fragment>{temp}</React.Fragment>
       }
     }
 }
