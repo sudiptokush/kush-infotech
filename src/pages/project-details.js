@@ -4,7 +4,7 @@ import {navigate} from "gatsby";
 import { useGallery } from '../hooks/gallery-hook';
 
 const ProjectDetails = ({location}) => {
-    const details = location.state ? location.state.source : 'kyokushinDetails';
+    // const details = location.state ? location.state.source : 'kyokushinDetails';
 
     // let details;
     // if(location.state)
@@ -21,7 +21,7 @@ const ProjectDetails = ({location}) => {
     //     }
     // }
 
-    //const details = location.state ? location.state.source : typeof window !== 'undefined' ? navigate('/projects/'): 'kyokushinDetails';
+    const details = location.state ? location.state.source : typeof window !== 'undefined' ? navigate('/projects/'): 'kyokushinDetails';
 
     const projectImages = useGallery(details);
 
