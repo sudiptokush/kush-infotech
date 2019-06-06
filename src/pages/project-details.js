@@ -4,24 +4,24 @@ import {navigate} from "gatsby";
 import { useGallery } from '../hooks/gallery-hook';
 
 const ProjectDetails = ({location}) => {
-    //const details = location.state ? location.state.source : navigate('/projects/');
+    const details = location.state ? location.state.source : 'kyokushinDetails';
 
-    let details;
-    if(location.state)
-    {
-        details = location.state.source;
-    }
-    else
-    {
-        if (typeof window !== 'undefined') {
-            navigate('/projects/');
-        }
-        else {
-            details = 'kyokushin';
-        }
-    }
+    // let details;
+    // if(location.state)
+    // {
+    //     details = location.state.source;
+    // }
+    // else
+    // {
+    //     if (typeof window !== 'undefined') {
+    //         navigate('/projects/');
+    //     }
+    //     else {
+    //         details = 'kyokushinDetails';
+    //     }
+    // }
 
-    //const details = location.state ? location.state.source : typeof window !== 'undefined' ? navigate('/projects/'): 'kyokushin';
+    //const details = location.state ? location.state.source : typeof window !== 'undefined' ? navigate('/projects/'): 'kyokushinDetails';
 
     const projectImages = useGallery(details);
 
