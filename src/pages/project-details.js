@@ -1,11 +1,28 @@
 import React from "react";
 import Layout from "../components/layout";
-import {push} from "gatsby";
+import {navigate} from "gatsby";
 import { useGallery } from '../hooks/gallery-hook';
 
 const ProjectDetails = ({location}) => {
-    const details = location.state ? location.state.source : 'kyokushin';
+    //const details = location.state ? location.state.source : 'kyokushin';
+    //'kyokushin';
     //navigate('/projects/');
+    let details;
+
+    if(location.state)
+    {
+        details = location.state.source;
+    }
+    else
+    {
+        if (typeof window !== 'undefined') {
+            navigate('/projects/');
+        }
+        else {
+            details = 'kyokushin';
+        }
+    }
+
     console.log(details);
     const projectImages = useGallery(details);
 
