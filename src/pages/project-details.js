@@ -15,6 +15,7 @@ const ProjectDetails = ({location}) => {
                 {projectImages}
             </div>
             <div className="content">
+                <h4>Contents under construction</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique mollis magna ut 
                     rutrum. Nullam blandit aliquam nulla, nec consectetur nibh finibus id. Proin ultricies, nulla quis 
