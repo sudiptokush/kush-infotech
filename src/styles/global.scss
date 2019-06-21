@@ -245,6 +245,16 @@ svg{
     min-width:350px;
     text-align: justify;
     font-size: 1.2em;
+    .tech-details {
+      list-style: none;
+      font-size: .9em;
+      li {
+        margin-bottom: 1rem;
+      }
+    }
+    .text {
+      margin-top: 5rem;
+    }
   }
 }
 
